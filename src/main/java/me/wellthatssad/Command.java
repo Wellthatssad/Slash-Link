@@ -21,7 +21,7 @@ public class Command implements CommandExecutor {
         TextComponent message = new TextComponent(Main.getInstance().getConfig().getString("Message"));
         message.setColor(ChatColor.AQUA);
         message.setBold(true);
-        String HoverMessage = Main.getInstance().getConfig().getString("Message");
+        String HoverMessage = Main.getInstance().getConfig().getString("Hover_Message");
         message.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new ComponentBuilder(HoverMessage).color(ChatColor.LIGHT_PURPLE).bold(true).create()));
         message.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, Main.getInstance().getConfig().getString("Url")));
         player.spigot().sendMessage(message);
