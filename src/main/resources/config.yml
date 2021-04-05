@@ -1,0 +1,3 @@
+Message: "Click here to open link" #the message will de bisplayed in Aqua
+Hover_Message: "Link" #displayed in light purple
+Url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" #Link that you are gonna be redirected to after clicking the message

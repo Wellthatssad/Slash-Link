@@ -1,0 +1,11 @@
+name: SlashLink
+version: ${project.version}
+main: me.wellthatssad.Main
+api-version: 1.16
+prefix: SL
+authors: [ Well_thatssad ]
+description: a plugin which has a command that you can make a custom message and whenever you click opens a link  and when you hover above the chat message it shows text, completly customizable
+website: https://github.com/Wellthatssad
+commands:
+  Link:
+    description: it does what it does #please this is the most annoying part of plugin making
